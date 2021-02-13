@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Run Buddy</title>
+    
 </head>
 
 <body>
@@ -19,20 +20,48 @@
                     <a href="#what-we-do">What We Do</a>
                 </li>
                 <li>
-                    <a href="what-you-do">What You Do</a>
+                    <a href="#what-you-do">What You Do</a>
                 </li>
                 <li>
-                    <a href="your-trainers">Your Trainers</a>
+                    <a href="#your-trainers">Your Trainers</a>
                 </li>
                 <li>
-                    <a href="reach-out">Reach Out</a>
+                    <a href="#reach-out">Reach Out</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-    <section>
-
+    <section class="hero">
+<div class="hero-form">
+    <h3>Get Started Today</h3>
+    <p>Fill out this form and one of our trainers will schedule a consult</p>
+    <label for= "name">Enter Full Name</label>
+    <input type= "text" placeholder="Your name" name="name" id="name" class="form-input" />
+    
+    <label for= "email">Enter your Email Address</label>
+    <input type= "email" placeholder="Email Address" name="email" id="email" class="form-input" />
+    
+    <label for= "phone">Enter your Phone Number</label>
+    <input type= "tel" placeholder="Phone Number" name= "phone" id="phone" class="form-input" />
+    <p>
+        Have you worked out with a trainer before?
+        <input type= "radio" name="trainer-confirm" id= "trainer-yes" />
+        <label for= "trainer-yes">Yes</label>
+        
+        <input type="radio" name="trainer-conirm" id= "trainer-no" />
+        <label for= "trainer-no">No</label>
+    </p>
+    <p>
+        <label for= "checkbox" >
+            I acknowledge that I am at least 18 years of age.
+        </label>
+        <input type= "checkbox" name="age-confirm" id="checkbox" />
+    </p>
+    <button type= "submit">
+        Get Running!
+    </button>
+</form>
+</div>
     </section>
 
     <section>
@@ -53,6 +82,10 @@
 
     <footer>
         <h2>❤️ Made with love by Run Buddy.</h2>
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br />
+                &copy; 2019 Run Buddy, Inc.
+            </div>
     </footer>
 </body>
 
